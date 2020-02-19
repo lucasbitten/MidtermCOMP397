@@ -106,7 +106,7 @@ void StartScene::start()
 {
 	m_pBoard = new Board();
 
-	SDL_Color black = { 0, 0, 0, 255 };
+	SDL_Color black = { 255, 255, 255, 255 };
 	m_pStartLabel = new Label("COMP397 - Midterm Test", "Consolas", 40, black, 
 		glm::vec2(Config::SCREEN_WIDTH * 0.5f, 100.0f));
 	m_pStartLabel->setParent(this);
