@@ -21,6 +21,7 @@ bool StartButton::ButtonClick()
 	{
 		if(!m_isClicked)
 		{
+			TheSoundManager::Instance()->playSound("button", 0);
 			Game::Instance()->changeSceneState(LEVEL1_SCENE);
 			m_isClicked = true;
 		}

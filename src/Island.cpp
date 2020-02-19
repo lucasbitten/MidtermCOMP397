@@ -16,7 +16,6 @@ Island::Island()
 	setType(GameObjectType::ISLAND);
 	//setVelocity(glm::vec2(0.0f, 0.0f));
 
-	TheSoundManager::Instance()->load("../Assets/audio/yay.ogg", "yay", SOUND_SFX);
 
 }
 

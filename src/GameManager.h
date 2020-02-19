@@ -28,7 +28,10 @@ public:
 
 	int dice1Result = 0;
 	int dice2Result = 0;
+	int dice3Result = 0;
+	int dice4Result = 0;
 
+	int result = 0;
 };
 
 typedef GameManager TheGameManager;

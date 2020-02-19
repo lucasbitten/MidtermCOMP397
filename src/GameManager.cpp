@@ -9,14 +9,6 @@ GameManager* GameManager::s_pInstance;
 
 GameManager::GameManager()
 {
-    TheSoundManager::Instance()->load("../Assets/audio/win.wav",
-        "win", sound_type::SOUND_SFX);
-
-    TheSoundManager::Instance()->load("../Assets/audio/Jackpot.wav",
-        "jackpot", sound_type::SOUND_SFX);
-
-    TheSoundManager::Instance()->load("../Assets/audio/lost.wav",
-        "lost", sound_type::SOUND_SFX);
 
 }
 

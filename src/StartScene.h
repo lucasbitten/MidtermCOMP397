@@ -5,6 +5,8 @@
 #include "Scene.h"
 #include "Label.h"
 #include "StartButton.h"
+#include "Level2Button.h"
+#include "Board.h"
 
 
 class StartScene : public Scene
@@ -26,10 +28,12 @@ public:
 	glm::vec2 getMousePosition();
 
 private:
+	
 	// Game Objects
+	Board* m_pBoard;
 	Label* m_pStartLabel;
 	StartButton* m_pStartButton;
-
+	Level2Button* m_pLevel2Button;
 	// private data member
 	glm::vec2 m_mousePosition;
 	
